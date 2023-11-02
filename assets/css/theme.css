@@ -2073,7 +2073,7 @@ body:not(.tt-boxed) .page-header-inner,
 .ph-caption-title-about {
 	position: relative;
 	margin: 0;
-	font-size: 5rem !important;
+	font-size: calc(7px + 10.5vw) !important;
 	font-weight: bold;
 	font-weight: 200;
 	color: #FFF;
@@ -2091,6 +2091,20 @@ body:not(.tt-boxed) .page-header-inner,
 	font-size: calc(7px + 10.5vw) !important;
 	font-weight: bold;
 	font-weight: 600;
+	color: #FFF;
+	line-height: 1.2;
+	z-index: 9;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	
+}
+
+/* page header caption title */
+.ph-caption-title-portfolio {
+	position: relative;
+	margin: 0;
+	font-size: calc(10px + 13.5vw) !important;
+	font-weight: bold;
+	font-weight: 300;
 	color: #FFF;
 	line-height: 1.2;
 	z-index: 9;
