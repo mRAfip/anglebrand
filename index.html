@@ -42,6 +42,15 @@
 		<link rel="stylesheet" href="assets/css/helper.css">
 		<link id="tt-themecss" rel="stylesheet" href="assets/css/theme.css">
 
+		<link rel="stylesheet" href="assets/css/mystyle.css">
+
+
+		<!--  font awsome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+		<!--  bootrstrap -->
+
 	</head>
 
 	
@@ -61,6 +70,7 @@
 		*********** Begin body inner ************* 
 		************************************** -->
 		<main id="body-inner">
+			
 
 			<!-- Begin page transition (do not remove!!!) 
 			=========================== -->
@@ -202,65 +212,7 @@
 				<div id="content-wrap">
 
 					
-					<!-- ========================
-					///// Begin page header /////
-					============================= 
-					* Use class "ph-full" to enable fullscreen size (no effect on smaller screens!).
-					* Use class "ph-cap-sm", "ph-cap-lg", "ph-cap-xlg" or "ph-cap-xxlg" to set caption size (no class = default size).
-					* Use class "ph-center" to enable content center position.
-					* Use class "ph-image-cropped" to crop image (if image is used). It uses fixed image dimensions (no effect with class "ph-bg-image"!).
-					* Use class "ph-bg-image" to enable page header background image. Note: "ph-caption-title-ghost" will be disabled if you enable this option!
-					* Use class "ph-bg-image-is-light" if needed, it makes the elements dark and more visible if you use a very light background image (effect only with class "ph-bg-image").
-					* Use class "ph-image-cover-*" to set image overlay opacity. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5").
-					* Use class "ph-content-parallax" to enable content parallax.
-					* Use class "ph-stroke" to enable caption title stroke style.
-					* Use class "ph-ghost-scroll" to enable the scroll effect to caption title ghost (no effect with class "ph-center"!).
-					-->
-					<div id="page-header_mainpage" class="ph-full ph-cap-lg ph-ghost-scroll ph-image-cropped ph-content-parallax">
-						<div class="page-header-inner tt-wrap">
-
-							<!-- Begin page header image 
-							============================= -->
-							<!-- <div class="ph-image">
-								<div class="ph-image-inner">
-									<img src="assets/img/page-header/ph-1.jpg" alt="Image">
-								</div>
-							</div> -->
-							<!-- End page header image -->
-
-							<!-- Begin page header caption
-							=============================== 
-							Use class "max-width-*" to set caption max width if needed. For example "max-width-1000". More info about helper classes can be found in the file "helper.css".
-							-->
-							<div class="ph-caption">
-								<!-- <div class="ph-caption-subtitle">
-									<div class="ph-appear">Subtitle</div>
-								</div> -->
-								<h5 class="ph-caption-title">
-									<div class="ph-appear">Hello, we are your digital transformation partner, <br>We specialize in crafting Web designs, UI UX, and Digital marketing services for door-front small and medium-sized businesses </div> <!-- You can use <br> to break a text line if needed -->
-								</h5>
-								<div class="ph-caption-title-ghost">
-									<div class="ph-appear">Studio</div>
-								</div>
-							</div>
-							<!-- End page header caption -->
-
-						</div> <!-- /.page-header-inner -->
-
-						<!-- Begin scroll down (you can change "data-offset" to set scroll top offset) 
-						======================= -->
-						<!-- <div class="tt-scroll-down">
-							<a href="#page-content" class="tt-sd-inner ph-appear" data-offset="0">
-								<div class="tt-sd-arrow">
-									<div class="tt-sd-arrow-inner"></div>
-								</div>
-								<div class="tt-sd-text">Scroll</div>
-							</a>
-						</div> -->
-						<!-- End scroll down -->
-						
-					</div>
-					<!-- End page header -->
+					
 
 					
 					<!-- *************************************
@@ -274,434 +226,86 @@
 						============================ 
 						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
 						-->
-						<div class="tt-section">
+						<div class="tt-section padding-top-xlg-120 padding-bottom-xlg-120 bg-white-accent-3">
 							<div class="tt-section-inner">
 
-								<!-- Begin portfolio grid (works combined with tt-Ggrid!)
-								========================== 
-								* Use class "pgi-hover" to enable portfolio grid item hover effect (behavior depends on "ttgr-gap-*" classes below!).
-								* Use class "pgi-cap-hover" to enable portfolio grid item caption hover effect (effect only with class "pgi-cap-inside"! Also no effect on mobile devices!).
-								* Use class "pgi-cap-center" to position portfolio grid item caption to center.
-								* Use class "pgi-cap-inside" to position portfolio grid item caption to inside.
-								--> 
-								<div id="portfolio-grid" class="pgi-hover">
 
-									<!-- Begin tt-Grid
-									=================== 
-									* Use class "ttgr-layout-2", "ttgr-layout-3", "ttgr-layout-4" to set grid layout (columns). No class = one column.
-									* Use class "ttgr-layout-1-2", "ttgr-layout-2-1", "ttgr-layout-2-3", "ttgr-layout-3-2", "ttgr-layout-3-4" or "ttgr-layout-4-3" to set grid mixed layout (columns).
-									* Use class "ttgr-layout-creative-1" or "ttgr-layout-creative-2" to set grid creative mixed layout (no effect with classes "ttgr-portrait", "ttgr-portrait-half", "ttgr-not-cropped" and "ttgr-shifted").
-									* Use class "ttgr-portrait" or "ttgr-portrait-half" to enable portrait mode (no effect with classes "ttgr-layout-creative-1", "ttgr-layout-creative-2" and "ttgr-not-cropped").
-									* Use class "ttgr-gap-1", "ttgr-gap-2", "ttgr-gap-3", "ttgr-gap-4", "ttgr-gap-5" or "ttgr-gap-6" to add space between items.
-									* Use class "ttgr-not-cropped" to enable not cropped mode (effect only with classes "ttgr-layout-2", "ttgr-layout-3" and "ttgr-layout-4").
-									* Use class "ttgr-shifted" to enable shifted layout (effect only with classes "ttgr-layout-2", "ttgr-layout-3" and "ttgr-layout-4").
-									-->
-									<div class="tt-grid ttgr-layout-creative-2 ttgr-gap-4">
+								<!-- Begin main header 
+								========================== -->
 
-										<!-- Begin tt-Grid items wrap 
-										============================== -->
-										<div class="tt-grid-items-wrap isotope-items-wrap">
 
-											<!-- Begin tt-Grid item
-											======================== -->
-											<div class="tt-grid-item isotope-item people">
-												<div class="ttgr-item-inner">
+								<div class="marque_text_top">
+									<div  class="tt-scrolling-text-top" data-scroll-speed="26">
+										<div  class="tt-scrolling-text-inner-top" data-text="Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off →">
+											Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off →
+										</div> <!-- /.tt-scrolling-text-inner -->
+									</div>
+								</div>
 
-													<!-- Begin portfolio grid item 
-													===============================
-													* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"! Also no effect on small screens!).
-													-->
-													<div class="portfolio-grid-item">
-														<a href="single-project-1.html" class="pgi-image-wrap" data-cursor="View<br>Project">
-															<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-															<div class="pgi-image-holder">
-																<div class="pgi-image-inner anim-zoomin">
-																	<figure class="pgi-image ttgr-height">
-																		<img src="assets/img/portfolio/1200/portfolio-1.jpg" alt="image">
-																	</figure> <!-- /.pgi-image -->
-																</div> <!-- /.pgi-image-inner -->
-															</div> <!-- /.pgi-image-holder -->
-														</a> <!-- /.pgi-image-wrap -->
+								<div class="top_banner_offer">
 
-														<div class="pgi-caption">
-															<div class="pgi-caption-inner">
-																<h2 class="pgi-title">
-																	<a href="single-project-1.html">Elegant Women</a>
-																</h2>
-																<div class="pgi-categories-wrap">
-																	<div class="pgi-category">People</div>
-																	<!-- <div class="pgi-category">Varia</div> -->
-																</div> <!-- /.pli-categories-wrap -->
-															</div> <!-- /.pgi-caption-inner -->
-														</div> <!-- /.pgi-caption -->
-													</div>
-													<!-- End portfolio grid item -->
+									<div class="div-left">
 
-												</div> <!-- /.ttgr-item-inner -->
-											</div>
-											<!-- End tt-Grid item -->
+										<div class="offer-head-div">
 
-											<!-- Begin tt-Grid item
-											======================== -->
-											<div class="tt-grid-item isotope-item creative">
-												<div class="ttgr-item-inner">
+											<h5 class="banner-head-1">Up to 80% off WordPress Hosting</h5>
+											<h1 class="banner-head-main">The Biggest Ever <span class="offer-name-hightlite"> Black Friday</span> Sale</h1>
+	
+										</div>
 
-													<!-- Begin portfolio grid item 
-													===============================
-													* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-													-->
-													<div class="portfolio-grid-item">
-														<a href="single-project-2.html" class="pgi-image-wrap" data-cursor="View<br>Project">
-															<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-															<div class="pgi-image-holder">
-																<div class="pgi-image-inner anim-zoomin">
-																	<figure class="pgi-image ttgr-height">
-																		<img src="assets/img/portfolio/1200/portfolio-2.jpg" alt="image">
-																	</figure> <!-- /.pgi-image -->
-																</div> <!-- /.pgi-image-inner -->
-															</div> <!-- /.pgi-image-holder -->
-														</a> <!-- /.pgi-image-wrap -->
+										
+										<div class="offer-spec-div">
 
-														<div class="pgi-caption">
-															<div class="pgi-caption-inner">
-																<h2 class="pgi-title">
-																	<a href="single-project-2.html">The Chase</a>
-																</h2>
-																<div class="pgi-categories-wrap">
-																	<div class="pgi-category">Creative</div>
-																	<!-- <div class="pgi-category">Varia</div> -->
-																</div> <!-- /.pli-categories-wrap -->
-															</div> <!-- /.pgi-caption-inner -->
-														</div> <!-- /.pgi-caption -->
-													</div>
-													<!-- End portfolio grid item -->
+											<a class="banner-offer-spec"><i class="fa-solid fa-check fa-beat check" style="color: #83FF64;"></i>Free Domain</i></a>
 
-												</div> <!-- /.ttgr-item-inner -->
-											</div>
-											<!-- End tt-Grid item -->
+											<a class="banner-offer-spec"><i class="fa-solid fa-check fa-beat check" style="color: #83FF64;"></i>Free Website Migration</i></a>
 
-											<!-- Begin tt-Grid item
-											======================== -->
-											<div class="tt-grid-item isotope-item people">
-												<div class="ttgr-item-inner">
+											<a class="banner-offer-spec"><i class="fa-solid fa-check fa-beat check" style="color: #83FF64;"></i>24/7 Customer Support</i></a>
 
-													<!-- Begin portfolio grid item 
-													===============================
-													* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-													-->
-													<div class="portfolio-grid-item">
-														<a href="single-project-3.html" class="pgi-image-wrap" data-cursor="View<br>Project">
-															<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-															<div class="pgi-image-holder">
-																<div class="pgi-image-inner anim-zoomin">
-																	<figure class="pgi-video-wrap ttgr-height">
-																		<video class="pgi-video" loop muted preload="metadata" poster="assets/vids/fashion-shoot.jpg">
-																			<source src="assets/vids/fashion-shoot.mp4" type="video/mp4">
-																			<source src="assets/vids/fashion-shoot.webm" type="video/webm">
-																		</video>
-																	</figure> <!-- /.pgi-video-wrap -->
-																</div> <!-- /.pgi-image-inner -->
-															</div> <!-- /.pgi-image-holder -->
-														</a> <!-- /.pgi-image-wrap -->
-
-														<div class="pgi-caption">
-															<div class="pgi-caption-inner">
-																<h2 class="pgi-title">
-																	<a href="single-project-3.html">Fashion Shoot</a>
-																</h2>
-																<div class="pgi-categories-wrap">
-																	<div class="pgi-category">People</div>
-																	<!-- <div class="pgi-category">Varia</div> -->
-																</div> <!-- /.pli-categories-wrap -->
-															</div> <!-- /.pgi-caption-inner -->
-														</div> <!-- /.pgi-caption -->
-													</div>
-													<!-- End portfolio grid item -->
-
-												</div> <!-- /.ttgr-item-inner -->
-											</div>
-											<!-- End tt-Grid item -->
-
-											<!-- Begin tt-Grid item
-											======================== -->
-											<div class="tt-grid-item isotope-item nature">
-												<div class="ttgr-item-inner">
-
-													<!-- Begin portfolio grid item 
-													===============================
-													* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-													-->
-													<div class="portfolio-grid-item">
-														<a href="single-project-4.html" class="pgi-image-wrap" data-cursor="View<br>Project">
-															<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-															<div class="pgi-image-holder">
-																<div class="pgi-image-inner anim-zoomin">
-																	<figure class="pgi-image ttgr-height">
-																		<img src="assets/img/portfolio/1200/portfolio-3.jpg" alt="image">
-																	</figure> <!-- /.pgi-image -->
-																</div> <!-- /.pgi-image-inner -->
-															</div> <!-- /.pgi-image-holder -->
-														</a> <!-- /.pgi-image-wrap -->
-
-														<div class="pgi-caption">
-															<div class="pgi-caption-inner">
-																<h2 class="pgi-title">
-																	<a href="single-project-4.html">Enchanting Nature</a>
-																</h2>
-																<div class="pgi-categories-wrap">
-																	<div class="pgi-category">Nature</div>
-																	<!-- <div class="pgi-category">Varia</div> -->
-																</div> <!-- /.pli-categories-wrap -->
-															</div> <!-- /.pgi-caption-inner -->
-														</div> <!-- /.pgi-caption -->
-													</div>
-													<!-- End portfolio grid item -->
-
-												</div> <!-- /.ttgr-item-inner -->
-											</div>
-											<!-- End tt-Grid item -->
-
-											<!-- Begin tt-Grid item
-											======================== -->
-											<div class="tt-grid-item isotope-item people">
-												<div class="ttgr-item-inner">
-
-													<!-- Begin portfolio grid item 
-													===============================
-													* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"! Also no effect on small screens!).
-													-->
-													<div class="portfolio-grid-item">
-														<a href="single-project-1.html" class="pgi-image-wrap" data-cursor="View<br>Project">
-															<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-															<div class="pgi-image-holder">
-																<div class="pgi-image-inner anim-zoomin">
-																	<figure class="pgi-image ttgr-height">
-																		<img src="assets/img/portfolio/1200/portfolio-1.jpg" alt="image">
-																	</figure> <!-- /.pgi-image -->
-																</div> <!-- /.pgi-image-inner -->
-															</div> <!-- /.pgi-image-holder -->
-														</a> <!-- /.pgi-image-wrap -->
-
-														<div class="pgi-caption">
-															<div class="pgi-caption-inner">
-																<h2 class="pgi-title">
-																	<a href="single-project-1.html">Elegant Women</a>
-																</h2>
-																<div class="pgi-categories-wrap">
-																	<div class="pgi-category">People</div>
-																	<!-- <div class="pgi-category">Varia</div> -->
-																</div> <!-- /.pli-categories-wrap -->
-															</div> <!-- /.pgi-caption-inner -->
-														</div> <!-- /.pgi-caption -->
-													</div>
-													<!-- End portfolio grid item -->
-
-												</div> <!-- /.ttgr-item-inner -->
-											</div>
-											<!-- End tt-Grid item -->
-
-											<!-- Begin tt-Grid item
-											======================== -->
-											<div class="tt-grid-item isotope-item creative">
-												<div class="ttgr-item-inner">
-
-													<!-- Begin portfolio grid item 
-													===============================
-													* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-													-->
-													<div class="portfolio-grid-item">
-														<a href="project-detail.html" class="pgi-image-wrap" data-cursor="View<br>Project">
-															<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-															<div class="pgi-image-holder">
-																<div class="pgi-image-inner anim-zoomin">
-																	<figure class="pgi-image ttgr-height">
-																		<img src="assets/img/portfolio/1200/portfolio-2.jpg" alt="image">
-																	</figure> <!-- /.pgi-image -->
-																</div> <!-- /.pgi-image-inner -->
-															</div> <!-- /.pgi-image-holder -->
-														</a> <!-- /.pgi-image-wrap -->
-
-														<div class="pgi-caption">
-															<div class="pgi-caption-inner">
-																<h2 class="pgi-title">
-																	<a href="project-detail.html">The Chase</a>
-																</h2>
-																<div class="pgi-categories-wrap">
-																	<div class="pgi-category">Creative</div>
-																	<!-- <div class="pgi-category">Varia</div> -->
-																</div> <!-- /.pli-categories-wrap -->
-															</div> <!-- /.pgi-caption-inner -->
-														</div> <!-- /.pgi-caption -->
-													</div>
-													<!-- End portfolio grid item -->
-
-												</div> <!-- /.ttgr-item-inner -->
-											</div>
-											<!-- End tt-Grid item -->
 
 										</div>
-										<!-- End tt-Grid items wrap  -->
+										
+										<h1 class="banner-head-main">₹129.00/mo</h1>
+										<h3 class="banner-disc">+ 3 Months Free</h3>
+										<div class="countdown">
+
+										</div>
+										<button class="button-banner">Redeem Offer</button>
+
 
 									</div>
-									<!-- End tt-Grid -->
+									<div class="div-right">
+
+
+										<a href="single-project-1.html" class="pgi-image-wrap" data-cursor="View<br>Offer">
+											<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
+											<div class="pgi-image-holder">
+												<div class="pgi-image-inner anim-zoomin">
+													<figure class="pgi-image-banner ttgr-height">
+														<img src="assets/img/hero-offer.png" alt="image">
+													</figure> <!-- /.pgi-image -->
+												</div> <!-- /.pgi-image-inner -->
+											</div> <!-- /.pgi-image-holder -->
+										</a> <!-- /.pgi-image-wrap -->
+									</div>
+
+									
 
 								</div>
-								<!-- End portfolio grid -->
 
 
-								<div class="text-center anim-fadeinup">
-
-									<!-- Begin scrolling button (See all works)
-									============================ -->
-									<a href="portfolio-grid-creative.html" class="tt-scrolling-btn all-works-btn" data-cursor="All<br>Works">
-										<div class="scr-btn-inner ph-appear">
-											<div class="scr-btn-icon"><i class="fas fa-arrow-right"></i></div>
-											<div class="scr-btn-spinner">
-												<svg viewBox="0 0 500 500">
-													<defs>
-														<path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle"></path>
-													</defs>
-													<!-- If you change the text, you probably need to adjust the CSS so that it fits correctly. Find ".scr-btn-text" in file "theme.css" and adjust it for your needs. -->
-													<text dy="30" class="scr-btn-text">
-														<textPath xlink:href="#textcircle">See All Works - See All Works -</textPath>
-													</text>
-												</svg>
-											</div>
-										</div> <!-- /.sdc-inner -->
-									</a>
-									<!-- End scrolling button -->
-
-								</div> <!-- /.text-center -->
-
-							</div> <!-- /.tt-section-inner -->
-						</div>
-						<!-- End tt-section -->
 
 
-						<!-- =======================
-						///// Begin tt-section /////
-						============================ 
-						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
-						-->
-						<div class="tt-section padding-top-xlg-100 padding-bottom-xlg-150">
-							<div class="tt-section-inner tt-wrap max-width-1700">
 
-								<div class="tt-row margin-left-lg-3-p margin-right-lg-3-p">
-									<div class="tt-col-xl-4">
+							</div><!-- /.tt-section-inner -->
+						</div><!-- End tt-section -->
 
-										<!-- Begin tt-Heading 
-										====================== 
-										* Use class "tt-heading-xsm", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg" or "tt-heading-xxlg" to set caption size (no class = default size).
-										* Use class "tt-heading-stroke" to enable stroke style.
-										* Use class "tt-heading-center" to align tt-Heading to center.
-										* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
-										-->
-										<div class="tt-heading tt-heading-xlg anim-fadeinup">
-											<h3 class="tt-heading-subtitle">Our Services</h3>
-											<h2 class="tt-heading-title">Drive More Traffic</h2> <!-- You can use <br> to break a text line if needed -->
-										</div>
-										<!-- End tt-Heading -->
 
-										<div class="max-width-600 margin-bottom-60 anim-fadeinup">
-											<h5>We help you achieve your business goals through innovative digital solutions.</h5>
-										</div>
 
-									</div> <!-- /.tt-col -->
+						
 
-									<div class="tt-col-xl-1">
-									</div> <!-- /.tt-col -->
 
-									<div class="tt-col-xl-7">
-
-										<!-- Begin accordion 
-										===================== 
-										* Use class "tt-ac-sm", "tt-ac-lg", "tt-ac-xlg" or "tt-ac-xxlg" to set accordion size.
-										* Use class "tt-ac-borders" to enable borders.
-										* Note: Add class "is-open" to the "tt-accordion-content" to make this content open by default.
-										-->
-										<div class="tt-accordion tt-ac-borders">
-											<div class="tt-accordion-item anim-fadeinup">
-												<div class="tt-accordion-heading">
-													<div class="tt-ac-head cursor-alter">
-														<h3 class="tt-ac-head-title">UI UX - All service</h3>
-														<!-- <div class="tt-accordion-subtext">Mauris mauris ante</div> -->
-													</div>
-
-													<div class="tt-accordion-caret-wrap">
-														<div class="tt-accordion-caret-inner magnetic-item">
-															<div class="tt-accordion-caret"></div>
-														</div>
-													</div> <!-- /.tt-accordion-caret-wrap -->
-												</div> <!-- /.tt-accordion-heading -->
-												<div class="tt-accordion-content max-width-800">
-													<p>We offer UI/UX design services to digital agencies, small-scale IT companies, and direct clients seeking app and development solutions</p>
-												</div> <!-- /.tt-accordion-content -->
-											</div> <!-- /.tt-accordion-item -->
-
-											<div class="tt-accordion-item anim-fadeinup">
-												<div class="tt-accordion-heading">
-													<div class="tt-ac-head cursor-alter">
-														<h3 class="tt-ac-head-title">Web Designing </h3>
-														<!-- <div class="tt-accordion-subtext">Vivamus nisi</div> -->
-													</div>
-
-													<div class="tt-accordion-caret-wrap">
-														<div class="tt-accordion-caret-inner magnetic-item">
-															<div class="tt-accordion-caret"></div>
-														</div>
-													</div> <!-- /.tt-accordion-caret-wrap -->
-												</div> <!-- /.tt-accordion-heading -->
-												<div class="tt-accordion-content max-width-800">
-													<p>We specialize in web design services primarily tailored for corporate branding websites, and we also offer ready-to-use, small web solutions designed specifically for small and medium-scale businesses.</p>
-												</div> <!-- /.tt-accordion-content -->
-											</div> <!-- /.tt-accordion-item -->
-
-											<div class="tt-accordion-item anim-fadeinup">
-												<div class="tt-accordion-heading">
-													<div class="tt-ac-head cursor-alter">
-														<h3 class="tt-ac-head-title">Ecommerce Development</h3>
-														<!-- <div class="tt-accordion-subtext">Nam min proin eget</div> -->
-													</div>
-
-													<div class="tt-accordion-caret-wrap">
-														<div class="tt-accordion-caret-inner magnetic-item">
-															<div class="tt-accordion-caret"></div>
-														</div>
-													</div> <!-- /.tt-accordion-caret-wrap -->
-												</div> <!-- /.tt-accordion-heading -->
-												<div class="tt-accordion-content max-width-800">
-													<p>Our eCommerce development service offers fully customized online stores developed using template languages on platforms like Shopify and WordPress, catering to the needs of both early-stage eCommerce entrepreneurs and established brands</p>
-												</div> <!-- /.tt-accordion-content -->
-											</div> <!-- /.tt-accordion-item -->
-
-											<div class="tt-accordion-item anim-fadeinup">
-												<div class="tt-accordion-heading">
-													<div class="tt-ac-head cursor-alter">
-														<h3 class="tt-ac-head-title">Social media Marketing</h3>
-														<!-- <div class="tt-accordion-subtext">Condimentum sit amet</div> -->
-													</div>
-
-													<div class="tt-accordion-caret-wrap">
-														<div class="tt-accordion-caret-inner magnetic-item">
-															<div class="tt-accordion-caret"></div>
-														</div>
-													</div> <!-- /.tt-accordion-caret-wrap -->
-												</div> <!-- /.tt-accordion-heading -->
-												<div class="tt-accordion-content max-width-800">
-													<p>We offer digital marketing services tailored to small and medium-sized businesses across a wide range of industries, including restaurants, bakeries, dentists, chiropractors, salons, car wash services, pest control, yoga trainers, car dealers, AC heating, roofing, security systems, tattoo shops, cryotherapy centers, veterinarians, plumbers, and painters.</p>
-												</div> <!-- /.tt-accordion-content -->
-											</div> <!-- /.tt-accordion-item -->
-
-										</div>
-										<!-- End accordion -->
-
-									</div> <!-- /.tt-col -->
-								</div> <!-- /.tt-row -->
-
-							</div> <!-- /.tt-section-inner -->
-						</div>
-						<!-- End tt-section -->
-
+						
 
 						<!-- =======================
 						///// Begin tt-section /////
@@ -1229,6 +833,7 @@
 
 		<!--  master JS -->
 		<script src="assets/js/theme.js"></script>
+
 
 
 
