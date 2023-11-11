@@ -126,9 +126,11 @@
 
 	background-color: #F02D00;
 	color: #CCC;
-	padding: 3% 20%;
+	padding: 4% 20%;
 	margin-top: 5%;
-	border-radius: 5px;
+	border-radius: 10px;
+	width: fit-content;
+
 	
 }
 
@@ -222,6 +224,18 @@
 	margin-top: 10%;
 	color: #fff;
 }
+
+
+
+
+
+/* ===============================  mobile view================================================== =========== */
+
+
+
+
+
+
 @media (max-width: 600px) {
 
 	.marque_text_top{
@@ -345,9 +359,9 @@
 
 		background-color: #F02D00;
 		color: #CCC;
-		padding: 3% 20%;
+		padding: 4% 20%;
 		margin-top: 5%;
-		border-radius: 5px;
+		border-radius: 100px;
 		justify-content: center;
 		
 		
