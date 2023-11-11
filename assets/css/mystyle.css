@@ -126,9 +126,9 @@
 
 	background-color: #F02D00;
 	color: #CCC;
-	padding: 4% 20%;
+	padding: 3% 10%;
 	margin-top: 5%;
-	border-radius: 10px;
+
 	font-weight: 600;
 	font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
 
@@ -261,6 +261,12 @@
 	padding: 1.5px !important;
 	margin: 1.5px !important;
 
+
+}
+
+.curosal{
+
+	margin-top: 25px;
 }
 
 .domain-search-section{
@@ -402,7 +408,7 @@
 		margin: 2px !important;
 		text-align: center !important;
 		width: 100% !important;
-		font-weight: 200 !important;
+		font-weight: 600 !important;
 		font-size: calc(12px + 6vw) !important;
 		
 	
@@ -437,7 +443,7 @@
 		border-radius: 100px;
 		justify-content: center;
 		width: 100%;
-		font-weight: 600;
+		font-weight: 600 !important;
 		
 		
 	}
@@ -471,7 +477,7 @@
 
 		
 		font-size: calc(8px + 4.5vw);
-		font-weight: 600;
+		font-weight: 600 !important;
 		
 	
 	}
