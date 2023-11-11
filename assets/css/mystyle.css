@@ -483,6 +483,47 @@
 	}
 
 
+	.domain-search-section{
+
+
+		padding: 40% 5%;
+		display: flex;
+		justify-content: center;
+		align-self: center;
+		flex-direction: column;
+		background-color: #fff;
+	}
+	
+	.domain-section-head{
+	
+		color: #000 !important;
+		font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+	
+		font-size: calc(9px + 5vw);
+		font-weight: 600;
+		padding: 1px !important;
+		  margin: 1px !important;
+		 text-align: center;
+	
+	}
+	
+	.domain-section-para{
+		padding: 1.5px !important;
+		margin: 1.5px !important;
+		text-align: center;
+		color: #000 !important;
+		
+	
+	}
+	
+	.form-domain{
+	
+		margin-top: 3%;
+	}
+	
+	
+
+
 	
 	
 }
