@@ -850,7 +850,7 @@ body.is-firefox .tt-heading.tt-heading-stroke .tt-heading-title {
 .tt-header-inner {
 	width: 100%;
 	display: flex;
-	padding-top: 400px;
+	padding-top: 40px;
 	align-items: center;
 }
 @media (max-width: 1024px) {
@@ -6738,8 +6738,8 @@ body:not(.tt-np-image-on) .tt-np-ghost {
 		width: auto;
 	}
 	.tt-content-carousel-item {
-		margin-left: 3vw;
-		margin-right: 3vw;
+		margin-left: 1vw;
+		margin-right: 1vw;
 	}
 	.tt-content-carousel .tt-cc-image,
 	.tt-content-carousel .swiper-slide .tt-cc-video {
