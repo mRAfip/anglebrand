@@ -97,14 +97,30 @@
 			*********** Begin scroll container *********** 
 			****************************************** -->
 			<div id="scroll-container"> 
+
+
+
+				<div class="marque_text_top top-padding-header">
+					<div  class="tt-scrolling-text-top" data-scroll-speed="26">
+						<div  class="tt-scrolling-text-inner-top" data-text="Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off →">
+							Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off →
+						</div> <!-- /.tt-scrolling-text-inner -->
+					</div>
+				</div>
+
 				
-				<!-- ===================
+
+<!-- ===================
 				///// Begin header /////
 				========================
 				* Use class "tt-header-fixed" to set header to fixed position.
 				-->
+
+
+
+
 				<header id="tt-header" class="tt-header-fixed">
-					<div class="tt-header-inner"> <!-- add/remove class "tt-wrap" to enable/disable element boxed layout (class "tt-boxed" is required in <body> tag!). Note: additionally you can use prepared helper class "max-width-*" to add custom width to "tt-wrap". Example: "max-width-1500" (class "tt-wrap" is still required!). More info about helper classes can be found in the file "helper.css". -->
+					<div class="tt-header-inner tt-header-inner-landing"> <!-- add/remove class "tt-wrap" to enable/disable element boxed layout (class "tt-boxed" is required in <body> tag!). Note: additionally you can use prepared helper class "max-width-*" to add custom width to "tt-wrap". Example: "max-width-1500" (class "tt-wrap" is still required!). More info about helper classes can be found in the file "helper.css". -->
 
 						<div class="tt-header-col">
 
@@ -123,82 +139,237 @@
 
 						<div class="tt-header-col">
 
-							<!-- Begin overlay menu toggle button -->
-							<div id="tt-ol-menu-toggle-btn-wrap">
-								<div class="tt-ol-menu-toggle-btn-text-wrap hide-cursor">
-									<div class="tt-ol-menu-toggle-btn-text">
-										<span class="text-menu" data-hover="Open">Menu</span>
-										<span class="text-close">Close</span>
-									</div> <!-- /.tt-ol-menu-toggle-btn-text -->
-								</div> <!-- /.tt-ol-menu-toggle-btn-text-wrap -->
-								<div class="tt-ol-menu-toggle-btn-holder">
-									<a href="#" class="tt-ol-menu-toggle-btn magnetic-item"><span></span></a>
-								</div> <!-- /.tt-ol-menu-toggle-btn-holder -->
+							<!-- Begin mobile menu toggle button (for "tt-main-menu") -->
+							<div id="tt-m-menu-toggle-btn-wrap">
+								<div class="tt-m-menu-toggle-btn-text">
+									<span class="tt-m-menu-text-menu">Menu</span>
+									<span class="tt-m-menu-text-close">Close</span>
+								</div>
+								<div class="tt-m-menu-toggle-btn-holder">
+									<a href="#" class="tt-m-menu-toggle-btn magnetic-item"><span></span></a>
+								</div>
 							</div>
-							<!-- End overlay menu toggle button -->
+							<!-- End mobile menu toggle button -->
 
-							<!-- Begin overlay menu 
-							======================== 
-							* Use class "tt-ol-menu-count" to enable menu counter.
+							<!-- Begin main menu (classic)
+							===============================
+							* Use class "tt-submenu-dark" to enable submenu dark style.
+							* Use class "tt-m-menu-center" to align mobile menu to center (no effect on desktop!).
 							-->
-							<nav class="tt-overlay-menu tt-ol-menu-count">
-								<div class="tt-ol-menu-ghost">Explore</div>
-								<div class="tt-ol-menu-holder">
-									<div class="tt-ol-menu-inner tt-wrap">
-										<div class="tt-ol-menu-content">
+							<nav class="tt-main-menu tt-submenu-dark">
+								<div class="tt-main-menu-holder">
+									<div class="tt-main-menu-inner">
+										<div class="tt-main-menu-content">
 
-											<!-- Begin menu list -->
-											<ul class="tt-ol-menu-list">
+											<!-- Begin main menu list -->
+											<ul class="tt-main-menu-list">
 
-												<li class="active"><a href="index.html">Home</a></li>
-												<li class=""><a href="about.html">About</a></li>
+												<li><a href="landing-page.html">Home</a></li>
 
 												<!-- Begin submenu (submenu master)
 												==================================== -->
-												<li class="tt-ol-submenu-wrap">
-													<div class="tt-ol-submenu-trigger">
-														<a href="#">Work</a>
-														
-													</div>
-													<div class="tt-ol-submenu">
-														<ul class="tt-ol-submenu-list">
+												<li class="tt-submenu-wrap tt-submenu-master active">
+													<div class="tt-submenu-trigger">
+														<a href="#">Portfolio</a>
+													</div> <!-- /.tt-submenu-trigger -->
+													<div class="tt-submenu">
+														<ul class="tt-submenu-list">
 
-															<li><a href="web.html">Web</a></li>
-															<li><a href="uiux.html">UI UX</a></li>
-															<li><a href="socialmediamarketing.html">Social Media Marketing</a></li>
+															<!-- Begin submenu
+															=================== -->
+															<li class="tt-submenu-wrap">
+																<div class="tt-submenu-trigger">
+																	<a href="#">Portfolio List</a>
+																</div> <!-- /.tt-submenu-trigger -->
+																<div class="tt-submenu">
+																	<ul class="tt-submenu-list">
 
-														</ul> <!-- /.tt-ol-submenu-list -->
-													</div> <!-- /.tt-ol-submenu -->
+																		<li><a href="portfolio-list.html">Portfolio List</a></li>
+																		<li><a href="portfolio-list-alter.html">Portfolio List Alter</a></li>
+																		<li><a href="portfolio-list-thumb.html">Portfolio List Thumbnail</a></li>
+																		
+																	</ul> <!-- /.tt-submenu-list -->
+																</div> <!-- /.tt-submenu -->
+															</li>
+															<!-- End submenu -->
+
+															<!-- Begin submenu
+															=================== -->
+															<li class="tt-submenu-wrap">
+																<div class="tt-submenu-trigger">
+																	<a href="#">Portfolio Grid</a>
+																</div> <!-- /.tt-submenu-trigger -->
+																<div class="tt-submenu">
+																	<ul class="tt-submenu-list">
+
+																		<li><a href="portfolio-grid-creative.html">Grid Creative</a></li>
+																		<li><a href="portfolio-grid-modern.html">Grid Modern</a></li>
+																		<li><a href="portfolio-grid-portrait-mode.html">Grid Portrait Mode</a></li>
+																		<li><a href="portfolio-grid-classic.html">Grid Classic</a></li>
+																		
+																	</ul> <!-- /.tt-submenu-list -->
+																</div> <!-- /.tt-submenu -->
+															</li>
+															<!-- End submenu -->
+
+															<!-- Begin submenu
+															=================== -->
+															<li class="tt-submenu-wrap">
+																<div class="tt-submenu-trigger">
+																	<a href="#">Portfolio Interactive</a>
+																</div> <!-- /.tt-submenu-trigger -->
+																<div class="tt-submenu">
+																	<ul class="tt-submenu-list">
+
+																		<li><a href="portfolio-interactive.html">Interactive Classic</a></li>
+																		<li><a href="portfolio-interactive-center.html">Interactive Senter</a></li>
+																		<li><a href="portfolio-interactive-inline.html">Interactive Inline</a></li>
+																		
+																	</ul> <!-- /.tt-submenu-list -->
+																</div> <!-- /.tt-submenu -->
+															</li>
+															<!-- End submenu -->
+
+															<!-- Begin submenu
+															=================== -->
+															<li class="tt-submenu-wrap">
+																<div class="tt-submenu-trigger">
+																	<a href="#">Portfolio Split</a>
+																</div> <!-- /.tt-submenu-trigger -->
+																<div class="tt-submenu">
+																	<ul class="tt-submenu-list">
+
+																		<li><a href="portfolio-split.html">Portfolio Split</a></li>
+																		<li><a href="portfolio-split-reverse.html">Portfolio Split Reverse</a></li>
+																		
+																	</ul> <!-- /.tt-submenu-list -->
+																</div> <!-- /.tt-submenu -->
+															</li>
+															<!-- End submenu -->
+
+															<!-- Begin submenu
+															=================== -->
+															<li class="tt-submenu-wrap">
+																<div class="tt-submenu-trigger">
+																	<a href="#">Slider &amp; Carousel</a>
+																</div> <!-- /.tt-submenu-trigger -->
+																<div class="tt-submenu">
+																	<ul class="tt-submenu-list">
+
+																		<li><a href="portfolio-fullscreen-slider.html">Fullscreen Slider</a></li>
+																		<li><a href="portfolio-fullscreen-carousel.html">Fullscreen Carousel</a></li>
+																		<li><a href="portfolio-hover-carousel.html">Fullscreen Hover Carousel</a></li>
+																		
+																	</ul> <!-- /.tt-submenu-list -->
+																</div> <!-- /.tt-submenu -->
+															</li>
+															<!-- End submenu -->
+
+															<li><a href="portfolio-one-column.html">One Column</a></li>
+															<li class="active"><a href="elements-classic-menu.html">Classic Menu</a></li>
+															<li><a href="elements-classic-filter.html">Classic Filter</a></li>
+
+														</ul> <!-- /.tt-submenu-list -->
+													</div> <!-- /.tt-submenu -->
 												</li>
 												<!-- End submenu (sub-master) -->
-												<li class=""><a href="index.html">News</a></li>
 
-												<li class=""><a href="contact.html">Contact</a></li>
+												<!-- Begin submenu (submenu master)
+												==================================== -->
+												<li class="tt-submenu-wrap tt-submenu-master">
+													<div class="tt-submenu-trigger">
+														<a href="#">About</a>
+													</div> <!-- /.tt-submenu-trigger -->
+													<div class="tt-submenu">
+														<ul class="tt-submenu-list">
 
+															<li><a href="about-us.html">About Us</a></li>
+															<li><a href="about-me.html">About Me</a></li>
 
-												
-												
+														</ul> <!-- /.tt-submenu-list -->
+													</div> <!-- /.tt-submenu -->
+												</li>
+												<!-- End submenu (sub-master) -->
+
+												<!-- Begin submenu (submenu master)
+												==================================== -->
+												<li class="tt-submenu-wrap tt-submenu-master">
+													<div class="tt-submenu-trigger">
+														<a href="#">Blog</a>
+													</div> <!-- /.tt-submenu-trigger -->
+													<div class="tt-submenu">
+														<ul class="tt-submenu-list">
+
+															<!-- Begin submenu
+															=================== -->
+															<li class="tt-submenu-wrap">
+																<div class="tt-submenu-trigger">
+																	<a href="#">Blog List</a>
+																</div> <!-- /.tt-submenu-trigger -->
+																<div class="tt-submenu">
+																	<ul class="tt-submenu-list">
+
+																		<li><a href="blog-classic.html">Blog Classic</a></li>
+																		<li><a href="blog-classic-sidebar.html">Classic Sidebar</a></li>
+																		<li><a href="blog-compact.html">Compact List</a></li>
+																		<li><a href="blog-archive.html">Blog Archive</a></li>
+																		
+																	</ul> <!-- /.tt-submenu-list -->
+																</div> <!-- /.tt-submenu -->
+															</li>
+															<!-- End submenu -->
+
+															<!-- Begin submenu
+															=================== -->
+															<li class="tt-submenu-wrap">
+																<div class="tt-submenu-trigger">
+																	<a href="#">Blog Post</a>
+																</div> <!-- /.tt-submenu-trigger -->
+																<div class="tt-submenu">
+																	<ul class="tt-submenu-list">
+
+																		<li><a href="blog-post.html">Single Post</a></li>
+																		<li><a href="blog-post-classic-sidebar.html">Classic Sidebar</a></li>
+																		<li><a href="blog-post-no-featured-image.html">No Featured Image</a></li>
+																		
+																	</ul> <!-- /.tt-submenu-list -->
+																</div> <!-- /.tt-submenu -->
+															</li>
+															<!-- End submenu -->
+
+														</ul> <!-- /.tt-submenu-list -->
+													</div> <!-- /.tt-submenu -->
+												</li>
+												<!-- End submenu (sub-master) -->
+
+												<!-- Begin submenu (submenu master)
+												==================================== -->
+												<li class="tt-submenu-wrap tt-submenu-master">
+													<div class="tt-submenu-trigger">
+														<a href="#">Contact</a>
+													</div> <!-- /.tt-submenu-trigger -->
+													<div class="tt-submenu">
+														<ul class="tt-submenu-list">
+
+															<li><a href="contact.html">Contact Form</a></li>
+															<li><a href="contact-simple.html">Contact Simple</a></li>
+
+														</ul> <!-- /.tt-submenu-list -->
+													</div> <!-- /.tt-submenu -->
+												</li>
+												<!-- End submenu (sub-master) -->
+
+												<li><a href="https://1.envato.market/nui" target="_blank" rel="noopener">Buy Now!</a></li>
 
 											</ul>
-											<!-- End menu list -->
+											<!-- End main menu list -->
 
-											<!-- Begin overlay menu social links 
-											===================================== -->
-											<ul class="tt-ol-menu-social">
-												<li><h6 class="tt-ol-menu-social-heading">Social Links:</h6></li>
-												<li><a href="https://www.facebook.com/themetorium" target="_blank" rel="noopener">Facebook</a></li>
-												<li><a href="https://twitter.com/Themetorium" target="_blank" rel="noopener">Twitter</a></li>
-												<li><a href="https://www.youtube.com/" target="_blank" rel="noopener">Youtube</a></li>
-												<li><a href="https://dribbble.com/Themetorium" target="_blank" rel="noopener">Dribbble</a></li>
-												<li><a href="https://www.behance.net/Themetorium" target="_blank" rel="noopener">Behance</a></li>
-											</ul>
-											<!-- End overlay menu social links -->
+										</div> <!-- /.tt-main-menu-content -->
+									</div> <!-- /.tt-main-menu-inner -->
+								</div> <!-- /.tt-main-menu-holder -->
 
-										</div> <!-- /.tt-ol-menu-content -->
-									</div> <!-- /.tt-ol-menu-inner -->
-								</div> <!-- /.tt-ol-menu-holder -->
 							</nav> 
-							<!-- End overlay menu -->
+							<!-- End main menu -->
 
 						</div> <!-- /.header-col -->
 					</div> <!-- /.header-inner -->
@@ -226,21 +397,15 @@
 						============================ 
 						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
 						-->
-						<div class="tt-section padding-top-xlg-120 padding-bottom-xlg-120 bg-white-accent-3">
-							<div class="tt-section-inner">
+						<div class="padding-top-xlg-120" >
+							
 
 
 								<!-- Begin main header 
 								========================== -->
 
 
-								<div class="marque_text_top">
-									<div  class="tt-scrolling-text-top" data-scroll-speed="26">
-										<div  class="tt-scrolling-text-inner-top" data-text="Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off →">
-											Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off → Flash sale 65% off →
-										</div> <!-- /.tt-scrolling-text-inner -->
-									</div>
-								</div>
+								
 
 								<div class="top_banner_offer">
 
@@ -281,7 +446,7 @@
 											<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
 											<div class="pgi-image-holder">
 												<div class="pgi-image-inner anim-zoomin">
-													<figure class="pgi-image-banner ttgr-height">
+													<figure class="pgi-image-banner ">
 														<img src="assets/img/hero-offer.png" alt="image">
 													</figure> <!-- /.pgi-image -->
 												</div> <!-- /.pgi-image-inner -->
@@ -297,10 +462,80 @@
 
 
 
-							</div><!-- /.tt-section-inner -->
+							
 						</div><!-- End tt-section -->
 
+						
 
+
+								<!-- Begin rating section
+								========================== -->
+
+
+
+								<div class="company-rating-main-div">
+
+									<div class="card left-div">
+
+										<h6 class="service-card-category">Webdesign</h6>
+										<h1 class="service-card-head">All-in-One Starter pack</h1>
+										<p class="service-card-para">hese names are all easy to remember, SEO-optimized, and keyword-related to public search for web design services. They also accurately convey the range of services that you offer.</p>
+										<a class="offer-spec"><i class="fa-solid fa-check fa-beat check offer-spec-tick" ></i>Free Domain</i></a>
+										<a class="offer-spec"><i class="fa-solid fa-check fa-beat check offer-spec-tick" ></i>Hosting</i></a>
+										<a class="offer-spec"><i class="fa-solid fa-check fa-beat check offer-spec-tick" ></i>Free website</i></a>
+										<a class="offer-spec"><i class="fa-solid fa-check fa-beat check offer-spec-tick" ></i>Free Email</i></a>
+										<a class="offer-spec"><i class="fa-solid fa-check fa-beat check offer-spec-tick" ></i>24 * 7 Expert support</i></a>
+
+										<button class="service-card-button">
+											Claim offer
+										</button>
+
+										
+
+									</div>
+									<div class="card center-div">
+
+										<h6 class="service-card-category">Webdesign</h6>
+										<h1 class="service-card-head">All-in-One Starter pack</h1>
+										<p class="service-card-para">hese names are all easy to remember, SEO-optimized, and keyword-related to public search for web design services. They also accurately convey the range of services that you offer.</p>
+										<a class="offer-spec"><i class="fa-solid fa-check fa-beat check offer-spec-tick" ></i>Free Domain</i></a>
+										<a class="offer-spec"><i class="fa-solid fa-check fa-beat check offer-spec-tick" ></i>Hosting</i></a>
+										<a class="offer-spec"><i class="fa-solid fa-check fa-beat check offer-spec-tick" ></i>Free website</i></a>
+										<a class="offer-spec"><i class="fa-solid fa-check fa-beat check offer-spec-tick" ></i>Free Email</i></a>
+										<a class="offer-spec"><i class="fa-solid fa-check fa-beat check offer-spec-tick" ></i>24 * 7 Expert support</i></a>
+
+										<button class="service-card-button">
+											Claim offer
+										</button>
+
+
+									</div>
+									<div class="card right-div">
+
+
+										<h6 class="service-card-category">Webdesign</h6>
+										<h1 class="service-card-head">All-in-One Starter pack</h1>
+										<p class="service-card-para">hese names are all easy to remember, SEO-optimized, and keyword-related to public search for web design services. They also accurately convey the range of services that you offer.</p>
+										<a class="offer-spec"><i class="fa-solid fa-check fa-beat check offer-spec-tick" ></i>Free Domain</i></a>
+										<a class="offer-spec"><i class="fa-solid fa-check fa-beat check offer-spec-tick" ></i>Hosting</i></a>
+										<a class="offer-spec"><i class="fa-solid fa-check fa-beat check offer-spec-tick" ></i>Free website</i></a>
+										<a class="offer-spec"><i class="fa-solid fa-check fa-beat check offer-spec-tick" ></i>Free Email</i></a>
+										<a class="offer-spec"><i class="fa-solid fa-check fa-beat check offer-spec-tick" ></i>24 * 7 Expert support</i></a>
+
+										<button class="service-card-button">
+											Claim offer
+										</button>
+
+
+									</div>
+
+								</div>
+								
+
+
+
+
+					
 
 						
 

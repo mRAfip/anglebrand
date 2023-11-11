@@ -1,6 +1,7 @@
 .marque_text_top{
 
     background-color: #F02D00;
+	margin-bottom: 20px;
 }
 
 .tt-scrolling-text-top {
@@ -27,12 +28,22 @@
 	content: attr(data-text);
 }
 
+
+.tt-header-inner-landing {
+	width: 100%;
+	display: flex;
+	padding-top: 50px;
+	align-items: center;
+}
 .top_banner_offer{
 
 	width: 100%;
-	padding: 3% 10%;
+	padding-left: 10%;
+	padding-right: 10%;
 	display: flex;
+	padding-top: 5%;
 	
+
 
 	
 }
@@ -40,11 +51,17 @@
 .div-left{
 
 	width: 40%;
+	padding-bottom: 6%;
+	
+
 	
 }
 .div-right{
 
 	width: 60%;
+	padding-bottom: 6%;
+	
+
 }
 
 
@@ -135,17 +152,83 @@
 }
 
 
+/* company rating */
+
+.bg-white{
+
+	background-color: #fff;
+}
+
+.company-rating-main-div{
+
+	width: 100%;
+	display: flex;
+	padding: 3% 10%;
+	gap: 1%;
+	
+
+}
 
 
+.card{
+
+	border: solid 1px #fff;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 5% 3% 3% 3%;
+}
+
+.service-card-category{
+
+	font-weight: 200 !important;
+	padding: 1px !important;
+	margin: 1px !important;
+}
+
+.service-card-head{
+
+	background: linear-gradient(45deg, #ff00cc, #3333ff);
+  background-clip: text;
+  -webkit-background-clip: text; /* For older versions of Chrome and Safari */
+  color: transparent;
+  display: inline-block;
+  padding: 1.5px !important;
+  margin: 1.5px !important;
+  	
+
+}
+
+.offer-spec{
+
+	margin-right: 20%;
+	
+}
 
 
+.offer-spec-tick{
 
+	color: #00CC39;
+	
+}
+
+.service-card-button{
+
+	width: 100%;
+	text-align: center;
+	height: fit-content;
+	padding: 5% 0;
+	background-color: #F02D00;
+	margin-top: 10%;
+	color: #fff;
+}
 @media (max-width: 600px) {
 
 	.marque_text_top{
 
 		background-color: #F02D00;
-		margin-top: 10%;
+
+
 	}
 
 
@@ -178,9 +261,12 @@
 	.top_banner_offer{
 
 		width: 100%;
-		padding: 3% 8%;
+		padding: 10% 8%;
 		display: flex;
 		flex-direction: column;
+		gap: 30px;
+		padding-top: 8% !important;
+		
 		
 	
 		
@@ -198,12 +284,14 @@
 	.div-right{
 	
 		width: 100%;
+
 	}
 
 	.offer-head-div{
 
 		display: flex;
 		flex-direction: column-reverse;
+		margin-top: 30px;;
 	}
 	
 	
@@ -262,7 +350,21 @@
 		border-radius: 5px;
 		justify-content: center;
 		
+		
 	}
+
+	.company-rating-main-div{
+
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		padding: 3% 10%;
+		gap: 1%;
+		
+	
+	}
+
+
 	
 	
 }
