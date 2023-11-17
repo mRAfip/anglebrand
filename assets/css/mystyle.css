@@ -618,6 +618,13 @@ body{
 		padding: 10% 8% 8% 8%;
 	}
 
+	.service-card-head{
+
+		font-size: calc(8.5px + 7.5vw);
+		font-weight: 600 !important;
+		
+	}
+
 
 	.web-template-section{
 
