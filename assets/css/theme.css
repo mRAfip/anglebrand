@@ -81,7 +81,7 @@
 
 :root {
 	--tt-main-bg-color: #0a0a0a; /*  background color. */
-	--tt-main-color: #b12c0d; /*  main color. */
+	--tt-main-color: #5F259F; /*  main color. */
 }
 
 
@@ -214,7 +214,7 @@ hr {
 /* Body font
 ============= */
 body {
-	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	font-family: 'SF Pro Display', sans-serif !important;
 }
 
 
@@ -676,7 +676,7 @@ body.tt-magic-cursor #magic-cursor {
 	margin: 0;
 	font-weight: bold;
 	font-weight: 400;
-	color: #FFF;
+	color: #000;
 
 }
 
@@ -684,7 +684,7 @@ body.tt-magic-cursor #magic-cursor {
 	margin: 0  0 0 3%;
 	font-weight: bold;
 	font-weight: 600;
-	color: #FFF;
+	color: #000;
 	font-size: calc(2.5px + 11.9vw) !important;
 	text-align: left !important;
 	opacity: 0.4 !important;
@@ -696,7 +696,7 @@ body.tt-magic-cursor #magic-cursor {
 	margin: 0  0 0 3%;
 	font-weight: bold;
 	font-weight: 600;
-	color: #FFF;
+	color: #000;
 	font-size: calc(3px + 10.5vw) !important;
 	text-align: left !important;
 	opacity: 0.4 !important;
@@ -710,7 +710,7 @@ body.tt-magic-cursor #magic-cursor {
 	font-size: calc(19px + 0.1vw);
 	font-weight: bold;
 	font-weight: normal;
-	color: #BBB;
+	color: #333;
 }
 .tt-heading-title + .tt-heading-subtitle {
 	margin: 15px 0 0 0;
@@ -736,7 +736,7 @@ body.tt-magic-cursor #magic-cursor {
 	font-weight: bold;
 	font-weight: 700;
 	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: #FFF;
+	-webkit-text-stroke-color: #000;
 	-webkit-text-fill-color: transparent;
 }
 
@@ -942,7 +942,7 @@ body:not(.tt-boxed) .tt-header-inner,
 		padding: 20px 5px;
 		font-size: 15px;
 		font-weight: 500;
-		color: #FFF;
+		color: #000;
 		transition: color 0.3s, opacity 0.3s;
 	}
 	
@@ -957,7 +957,7 @@ body:not(.tt-boxed) .tt-header-inner,
 	.tt-main-menu-list.tt-mm-hover > li.active > .tt-submenu-trigger > a,
 	.tt-main-menu-list.tt-mm-hover > li.tt-submenu-open > .tt-submenu-trigger > a {
 		opacity: 1;
-		color: #FFF;
+		color: #000;
 	}
 
 
@@ -1021,6 +1021,7 @@ body:not(.tt-boxed) .tt-header-inner,
 	.tt-submenu-list > li.active > a, 
 	.tt-submenu-list > li.active > .tt-submenu-trigger a {
 		background-color: rgba(0, 0, 0, 0.05);
+		
 	}
 
 	/* Set submenu position to right on last menu list element */
