@@ -111,6 +111,20 @@
 		}
 
 
+		$(document).ready(function() {
+			// On scroll function
+			$(window).scroll(function() {
+				// Check if user has scrolled more than 50px
+				if ($(this).scrollTop() > 50) {
+				// If yes, change the background color of the navbar
+				$('#tt-header').css('background-color', '#333'); // Change to your desired solid color
+				} else {
+				// If not, make the background transparent
+				$('#tt-header').css('background-color', 'transparent');
+				}
+			});
+			});
+
 		// Transitions Out (when "ptr-overlay" slides out)
 		// ================
 		function HideLoad() {

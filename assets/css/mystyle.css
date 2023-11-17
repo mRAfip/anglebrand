@@ -191,6 +191,7 @@ body{
 	overflow: hidden;
 	z-index: 1;
 	line-height: 1;
+	margin-top: -20%;
 }
 
 .pgi-image-banner {
