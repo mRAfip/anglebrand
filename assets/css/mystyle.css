@@ -170,6 +170,7 @@ body{
 	width: 100%;
 	font-family: 'SF Pro Display', sans-serif !important;
 	
+	
 }
 
 .check{
@@ -186,7 +187,19 @@ body{
 
 	
 
+
 }
+
+
+#counter {
+	font-size: 3.8em;
+	font-weight: 600 !important;
+	margin-top: -10px;
+
+}
+
+
+
 
 .button-banner{
 
@@ -605,11 +618,19 @@ body{
 		text-align: center;
 	}
 
+	#counter {
+		font-size: 3.5em;
+		
+		margin-top: -10px;
+		text-align: center;
+	
+	}
+
 	.button-banner{
 
 
 		background-color: var(--primary-color);
-		color: #CCC;
+		color: #fff;
 		padding: 4% 20%;
 		margin-top: 5%;
 		border-radius: 100px;

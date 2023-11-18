@@ -182,7 +182,7 @@
 															=================== -->
 															<li class="tt-submenu-wrap">
 																<div class="tt-submenu-trigger">
-																	<a href="#">Website</a>
+																	<a href="web.html">Website</a>
 																</div> <!-- /.tt-submenu-trigger -->
 																<div class="tt-submenu">
 																	<ul class="tt-submenu-list">
@@ -370,6 +370,8 @@
 										<h1 class="banner-price">₹129.00/mo</h1>
 										<p class="banner-offer-spec">+ 3 Months Free</p>
 										<div class="countdown">
+
+											<div id="counter"> <span class="timer-span">24</span>  : <span class="timer-span">00</span>  : <span class="timer-span">00</span> </div>
 
 										</div>
 										<button class="button-banner">Redeem Offer</button>
@@ -1237,6 +1239,45 @@
 		<script src="assets/vendor/isotope/packery-mode.pkgd.min.js"></script> <!-- Isotope Packery Mode JS (https://isotope.metafizzy.co/layout-modes/packery.html) -->
 		<script src="assets/vendor/lightgallery/js/lightgallery-all.min.js"></script> <!-- lightGallery Plugins JS (http://sachinchoolur.github.io/lightGallery) -->
 		<script src="assets/vendor/jquery.mousewheel.min.js"></script> <!-- A jQuery plugin that adds cross browser mouse wheel support (https://github.com/jquery/jquery-mousewheel) -->
+
+
+
+
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+			  // Set the initial time to 24 hours
+			  let timeInSeconds = 24 * 60 * 60;
+		
+			  // Get the counter element
+			  const counterElement = document.getElementById("counter");
+		
+			  // Function to update the counter
+			  function updateCounter() {
+				const hours = Math.floor(timeInSeconds / 3600);
+				const minutes = Math.floor((timeInSeconds % 3600) / 60);
+				const seconds = timeInSeconds % 60;
+		
+				// Display the time in HH:MM:SS format
+				counterElement.textContent = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+		
+				// Decrease the time by 1 second
+				timeInSeconds--;
+		
+				// Check if the time has reached 0, then restart the counter
+				if (timeInSeconds < 0) {
+				  timeInSeconds = 24 * 60 * 60; // Restart the counter to 24 hours
+				}
+			  }
+		
+			  // Update the counter every second
+			  setInterval(updateCounter, 1000);
+		
+			  // Initial update
+			  updateCounter();
+			});
+		  </script>
+
+
 
 		
 		<!--  master JS -->
