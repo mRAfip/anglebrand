@@ -486,6 +486,35 @@ body{
 
 
 
+/* ===============================  tab view================================================== =========== */
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 1366px) {
+	
+
+	.banner-head-main{
+
+
+		font-size: calc(5px + 3vw);
+		
+	
+	}
+
+	#counter {
+		font-size: 2.8em;
+		font-weight: 600 !important;
+		margin-top: -15px;
+	
+	}
+
+
+	
+
+
+}
+
+
 
 
 /* ===============================  mobile view================================================== =========== */
