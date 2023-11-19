@@ -263,7 +263,7 @@ body {
 .tt-scrolling-btn,
 #blog-list.bli-compact .bli-info::before,
 .footer-social-text {
-	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	font-family: 'SF Pro Display', sans-serif !important;
 }
 
 

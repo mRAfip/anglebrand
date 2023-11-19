@@ -68,7 +68,7 @@ a {
     flex-direction: column;
     border-right: #000 solid 1px;
     justify-content: center;
-      align-items: center;
+    align-items: center;
 }
 
 .main-feature-list {
