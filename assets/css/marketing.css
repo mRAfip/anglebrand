@@ -16,14 +16,14 @@
     padding: 20px 5px;
     font-size: 15px;
     font-weight: 500;
-    color: #000 !important;
+    color: var(--dark-color) !important;
     transition: color 0.3s, opacity 0.3s;
 }
 
 
 .main-header-marketing{
 
-    background-color: var(--secondory-color);
+    background-color: #FB685A;
     padding: 10% 3%
    
 }
@@ -31,16 +31,19 @@
 
 .header-marketing-head{
 
-    color: var(--black-color);
-    font-size: calc(9px + 5vw);
+    color: var(--dark-color);
+    font-size: calc(12px + 8.5vw);
+    
+
    
 
 }
 
+.header-marketing-para{
+    color: var(--dark-color);
+    font-size: calc(1px + 2vw);
+    width: 65%;
 
-#tt-header {
-
-    color: #000 !important;
 }
 
 
@@ -131,9 +134,135 @@
 }
 
 
+
+
+.support-team-marketing{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.image-container {
+    flex: 1 0 50%;
+    background-image: url('../img/page-header/product/web-banner.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .support-team-marketing-content {
+    flex: 1 0 50%;
+    padding: 15%  5%;
+  
+    
+  }
+
+
+  .support-head{
+
+    font-size: calc(8px + 4vw);
+   
+  }
+
+  .support-para{
+
+    width: 70%;
+  }
+
+  .support-link {
+
+    text-decoration: underline;
+  }
+
+  .pad{
+
+    margin-left: 5%;
+  }
+
+
+  .call-back-section{
+
+    display: flex;
+    padding: 3% 15%;
+    justify-content: space-between;
+    border-top: solid #fff 1px;
+    border-bottom: solid #fff 1px;
+    align-items: center;
+    
+  }
+
+
+  .callback-para{
+
+    font-size: calc(1px + 2vw);
+    text-align: left !important;
+  }
+
+
+  .child-right-callback{
+
+    width: 100%;
+   
+   
+  }
+
+
+  .callback-btn-marketing{
+
+    background-color: var(--secondory-color);
+    width: fit-content;
+    padding: 3% 15%;
+    text-transform: uppercase;
+    float: right;
+   
+  }
+
+  
+
+/* pricing plan */
+
+.marketing-pricing-plan{
+
+
+}
+
+.pricing-plan-head{
+
+
+    font-family: 'SF Pro Display', sans-serif !important;
+    font-size: calc(15px + 9vw);
+    color: var(--secondory-color);
+    text-transform: uppercase;
+    text-align: center;
+
+
+}
+
+
+
+
 @media (max-width: 600px) {
 
 
+
+    .header-marketing-head{
+
+        color: var(--dark-color);
+        font-size: calc(13px + 9vw);
+        margin-top: 15%;
+        
+    
+       
+    
+    }
+    
+    .header-marketing-para{
+        color: var(--dark-color);
+        font-size: calc(2px + 4vw);
+        width: 100%;
+    
+    }
 
     .main-service-div-parent{
 
@@ -150,7 +279,7 @@
 
 
         font-family: 'SF Pro Display', sans-serif !important;
-        font-size: calc(18px + 12vw);
+        font-size: calc(15px + 10vw);
         margin: 0% !important;
         text-transform: uppercase;
         
