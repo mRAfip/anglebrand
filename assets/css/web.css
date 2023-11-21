@@ -148,29 +148,55 @@ a {
 /* end web-kit-detail-section */
 
 
-.support-team-banner{
 
+
+.support-team-marketing{
+
+    display: flex;
+    flex-direction: row;
     width: 100%;
-    background-image: url('../img//page-header//product/support-banner.jpg');
-    padding: 10% 10%;
-    color: var(--black-color);
+
 }
 
-.main-head-support{
+.image-container {
+    flex: 1 0 50%;
+    background-image: url('../img/page-header/product/web-banner.jpg');
+    background-size: cover;
+    background-position: center;
+  }
 
+
+
+.support-team-marketing-content {
+    flex: 1 0 50%;
+    padding: 15%  5%;
+  
+    
+  }
+
+
+  .support-head{
+
+    font-size: calc(8px + 4vw);
    
-    margin: 0;
-    padding: 0;
-    font-size: calc(5px + 3vw);
+  }
+
+  .support-para{
+
+    width: 70%;
+  }
+
+  .support-link {
+
+    text-decoration: underline;
+  }
+
+  .pad{
+
+    margin-left: 5%;
+  }
 
 
-}
-
-.main-para-support{
-
-    margin: 0;
-    padding: 0;
-}
 
 
 .div-line{
