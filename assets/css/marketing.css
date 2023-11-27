@@ -5,33 +5,26 @@
 	--orenge-color : #FC4F00; /* Define a root variable for sec color */
 	--dark-color :#0D1033; /* Define a root variable for sec color */
 	--black-color :#000; /* Define a root variable for sec color */
+  --marketing-header :#4526DB; /* Define a root variable for sec color */
+
 
 	
 }
 
 
-.tt-main-menu-list > li > a,
-.tt-main-menu-list > li > .tt-submenu-trigger > a {
-    display: block;
-    padding: 20px 5px;
-    font-size: 15px;
-    font-weight: 500;
-    color: var(--dark-color) !important;
-    transition: color 0.3s, opacity 0.3s;
-}
 
 
 .main-header-marketing{
 
-    background-color: #FB685A;
-    padding: 10% 3%
+    background-color: var(--marketing-header);
+    padding: 10% 3%;
    
 }
 
 
 .header-marketing-head{
 
-    color: var(--dark-color);
+    color: var(--secondory-color);
     font-size: calc(12px + 8.5vw);
     
 
@@ -40,7 +33,7 @@
 }
 
 .header-marketing-para{
-    color: var(--dark-color);
+    color: var(--secondory-color);
     font-size: calc(1px + 2vw);
     width: 65%;
 
@@ -513,15 +506,7 @@
 
 
 
-  .tt-main-menu-list > li > a,
-.tt-main-menu-list > li > .tt-submenu-trigger > a {
-    display: block;
-    padding: 20px 5px;
-    font-size: 15px;
-    font-weight: 500;
-    color: var(--secondory-color) !important;
-    transition: color 0.3s, opacity 0.3s;
-}
+
 
 
 

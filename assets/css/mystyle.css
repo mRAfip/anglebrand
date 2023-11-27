@@ -3,9 +3,11 @@
 :root {
 	--primary-color: #5F259F; /* Define a root variable for primary color */
 	--secondory-color : #fff; /* Define a root variable for sec color */
-	--orenge-color : #FC4F00; /* Define a root variable for sec color */
+	--orenge-color : #FFC425; /* Define a root variable for sec color */
 	--dark-color :#0D1033; /* Define a root variable for sec color */
 	--black-color :#000; /* Define a root variable for sec color */
+
+	--non-active: #FBF6FF;
 
 	
   
@@ -245,12 +247,37 @@ body{
 	background-color: #fff;
 }
 
+.pricing-main-div{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+}
+
+.product-category-main-head{
+
+	text-align: center;
+	font-size: calc(4px + 4vw);
+	margin-top: 2%;
+}
+
+.product-category-para{
+
+	text-align: center;
+	width: 60%;
+	align-self: center;
+}
+
 .company-rating-main-div{
 
 	width: 100%;
 	display: flex;
 	padding: 3% 10%;
 	gap: 1%;
+
+
 	
 
 }
@@ -258,23 +285,120 @@ body{
 
 .card{
 
-	border: solid 1px #000;
+	border: solid 1px var(--black-color);
 	width: 100%;
+	border-radius: 20px;
+
 	display: flex;
 	flex-direction: column;
-	padding: 5% 3% 3% 3%;
+	color: #000;
+	padding-top: 1.5%;
+	
+	
 }
 
-.service-card-category{
+.card:hover{
+
+	background-color: var(--non-active);
+
+}
+
+
+
+
+
+.card-most-popular{
 
 	
-	padding: 1px !important;
-	margin: 1px !important;
-	font-family: 'SF Pro Display', sans-serif !important;
+	width: 100%;
+	border-radius: 20px;
 
+	display: flex;
+	flex-direction: column;
+	background-color: var(--primary-color);
+	color: #fff;
+	
+}
+
+
+
+
+
+.card-inner-top{
+
+	display: flex;
+	flex-direction: column;
+	padding: 5% 6%;
+}
+
+.card-inner-bottom{
+
+	padding: 5% 6%;
+	display: flex;
+	flex-direction: column;
+}
+
+.card-top-popular{
+
+	background-color: var(--orenge-color);
+	width: fit-content;
+	padding: 2% 10%;
+	align-self: center;
+	border-radius: 50px;
+	margin-top: -6%;
+	color: var(--black-color);
 }
 
 .service-card-head{
+
+	/* background: linear-gradient(45deg, #ff00cc, #3333ff); */
+  background-clip: text;
+  -webkit-background-clip: text; /* For older versions of Chrome and Safari */
+
+  display: inline-block;
+  padding: 1.5px !important;
+  margin: 1.5px !important;
+  font-weight: 600;
+  font-family: 'SF Pro Display', sans-serif !important;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: calc(2px + 1vw);
+
+}
+
+
+
+.service-card-para{
+
+	text-align: center;
+}
+
+
+.price-cross-offer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+
+  .price-cross-offer__old-price {
+	font-size: 18px;
+	text-decoration: line-through;
+	color: #ccc;
+  }
+
+
+  .price-cross-offer__save {
+	font-size: 18px;
+	color: #FC5185;
+	background-color: #ffc8d8;
+	padding: 1% 6%;
+	border-radius: 50px;
+	margin-left: 2%;
+
+  }
+
+
+  .service-card-pricing{
 
 	/* background: linear-gradient(45deg, #ff00cc, #3333ff); */
   background-clip: text;
@@ -285,28 +409,34 @@ body{
   margin: 1.5px !important;
   font-weight: 600;
   font-family: 'SF Pro Display', sans-serif !important;
-
+  text-align: center;
 
 }
 
-.service-card-category-2{
+.service-card-pricing-active{
 
-	
-	padding: 1px !important;
-	margin: 1px !important;
-	font-family: 'SF Pro Display', sans-serif !important;
+	/* background: linear-gradient(45deg, #ff00cc, #3333ff); */
+  background-clip: text;
+  -webkit-background-clip: text; /* For older versions of Chrome and Safari */
+  color: #fff;
+  display: inline-block;
+  padding: 1.5px !important;
+  margin: 1.5px !important;
+  font-weight: 600;
+  font-family: 'SF Pro Display', sans-serif !important;
+  text-align: center;
 
-	width: fit-content;
-	color: #fff;
-	font-weight: 200 !important;
-	padding-left: 12px !important;
-	padding-right: 12px !important;
 }
+
+
+
+
 
 .offer-spec{
 
 	margin-right: 20%;
 	font-family: 'SF Pro Display', sans-serif !important;
+	margin-top: 3%;
 
 	
 }
@@ -318,6 +448,27 @@ body{
 	
 }
 
+.offer-spec-tick-yellow{
+
+	color: #FFB800;
+	
+}
+
+.offer-spec-tick-red{
+
+	color: red;
+	
+}
+
+.category-differ{
+
+	margin-top: 8%;
+	margin-bottom: 8%;
+	text-transform: uppercase;
+	opacity: 0.5;
+	font-weight: 600;
+}
+
 .service-card-button{
 
 	width: 100%;
@@ -326,27 +477,59 @@ body{
 	padding: 5% 0;
 	
 	margin-top: 10%;
-	color: #fff;
+	color: #000;
+	font-family: 'SF Pro Display', sans-serif !important;
+	border: solid 1px #000;
+	border-radius: 10px;
+
+}
+
+.service-card-button-active{
+
+	width: 100%;
+	text-align: center;
+	height: fit-content;
+	padding: 5% 0;
+	
+	margin-top: 10%;
+	color: #000;
 	font-family: 'SF Pro Display', sans-serif !important;
 
-}
-
-.color-highlite-1 {
-
-	background-color: var(--primary-color);
+	border-radius: 10px;
+	background-color: #FFC425;
 
 }
-.color-highlite-2 {
 
-	background-color: var(--dark-color) !important;
+.service-card-button:hover{
+
+
+	background-color: #000;
+	color: #fff;
 
 }
-	
-.color-highlite-3 {
 
-	background-color: var(--orenge-color);
+.service-card-button-active:hover{
 
 
+	background-color: #fff;
+	color: #000;
+
+}
+
+.line-white{
+
+	background-color: var(--black-color);
+	width: 100%;
+	height: 2px;
+	margin-top: 10%;
+}
+
+.line-white-active{
+
+	background-color: var(--secondory-color);
+	width: 100%;
+	height: 2px;
+	margin-top: 10%;
 }
 
 
@@ -676,6 +859,34 @@ body{
 		margin-top: -8%;
 	}
 
+
+
+
+	
+	.product-category-main-head{
+	
+		text-align: center;
+		font-size: calc(6px + 7vw);
+		margin-top: 2%;
+		width: 80%;
+		align-self: center;
+	}
+	
+	.product-category-para{
+	
+		text-align: center;
+		width: 100%;
+		align-self: center;
+	}
+
+
+	.card-top-popular{
+
+		
+		margin-top: -3%;
+		
+	}
+	
 
 	.company-rating-main-div{
 

@@ -14,11 +14,12 @@
 
 .main-header-reasources{
 
-    background-color: var(--primary-color);
+    background-color: var(--black-color);
     padding: 15% 0% 5% 3%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: solid 1px #fff;
     
    
 }
