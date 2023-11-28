@@ -162,3 +162,67 @@ background-color: transparent;
 	background-color: #fff;
 
   }
+
+  
+/* -------------------------------mobile view-------------------------------- */
+
+@media (max-width: 600px) { 
+
+
+
+
+	.join-now-div{
+
+		display: flex;
+		justify-content: center;
+		padding: 30% 3%;
+		flex-direction: column;
+	  }
+	
+	  .join-now-title{
+	
+		color: var(--white-color);
+		font-size: calc(9px + 7.5vw);
+		text-align: center;
+	  }
+	
+	  .join-now-para{
+	
+		color: #fff;
+		text-align: center;
+	
+	
+	  }
+
+
+
+
+
+	.btn-div{
+
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		gap: 2%;
+	
+	  }
+
+	  .hire-freelancer{
+
+		width: 100%;
+		padding: 5% 0;
+	  }
+
+
+	  .join-freelancer{
+
+
+		padding: 5% 0;
+		
+		width: 100%;
+		margin-top: 3%;
+		
+	
+	  }
+
+}
