@@ -299,12 +299,32 @@ body{
 
 .card:hover{
 
-	background-color: var(--non-active);
+	background-color: var(--black-color);
+	color: var(--secondory-color);
 
 }
 
+.card:hover .line-white{
+
+	background-color: var(--secondory-color);
+	
+}
 
 
+.card:hover .service-card-button{
+
+	border: solid 1px var(--secondory-color);
+	color: var(--secondory-color);
+	
+}
+
+.card:hover .service-card-button:hover {
+
+	border: solid 1px var(--secondory-color);
+	color: var(--black-color);
+	background-color: var(--secondory-color);
+	
+}
 
 
 .card-most-popular{
@@ -403,7 +423,6 @@ body{
 	/* background: linear-gradient(45deg, #ff00cc, #3333ff); */
   background-clip: text;
   -webkit-background-clip: text; /* For older versions of Chrome and Safari */
-  color: #000;
   display: inline-block;
   padding: 1.5px !important;
   margin: 1.5px !important;
@@ -418,7 +437,6 @@ body{
 	/* background: linear-gradient(45deg, #ff00cc, #3333ff); */
   background-clip: text;
   -webkit-background-clip: text; /* For older versions of Chrome and Safari */
-  color: #fff;
   display: inline-block;
   padding: 1.5px !important;
   margin: 1.5px !important;

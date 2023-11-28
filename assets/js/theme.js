@@ -2783,6 +2783,17 @@
 
 
 
+
+	// Hover scrolling speed.
+	$(".tt-scrolling-image").each(function() {
+		var $tt_stSpeed = $(this).data("scroll-speed");
+		$(this).find(".tt-scrolling-image-inner").css({ 
+			"animation-duration": $tt_stSpeed + "s",
+		});
+	});
+
+
+
 	// ================================================================
 	// Scroll between anchors 
 	// Requires "Smooth Scrollbar" (https://github.com/idiotWu/smooth-scrollbar/blob/develop/docs/api.md#scrollbarscrollintoview)
