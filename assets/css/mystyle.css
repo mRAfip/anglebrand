@@ -92,7 +92,7 @@ body{
 	padding-left: 10%;
 	padding-right: 10%;
 	display: flex;
-	padding-top: 5%;
+	padding-top: 3%;
 	
 
 
@@ -283,6 +283,8 @@ body{
 }
 
 
+
+
 .card{
 
 	border: solid 1px var(--black-color);
@@ -446,6 +448,18 @@ body{
 
 }
 
+
+.package-duration{
+
+	text-align: center;
+	
+}
+
+.package-duration-popular{
+
+	text-align: center;
+	color: #fff;
+}
 
 
 
